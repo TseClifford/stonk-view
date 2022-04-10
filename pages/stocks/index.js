@@ -1,3 +1,5 @@
+import Overview from "../components/Overview";
+
 export default function Stocks() {
-  return <div>/stocks page</div>;
+  return <Overview page={"Stocks"} />;
 }
